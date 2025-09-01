@@ -1,7 +1,7 @@
 // API service layer for Muay Thai GB app
 // This provides mock endpoints that will be replaced with real API calls later
 
-import { signInWithEmailAndPassword, createUserWithEmailAndPassword, User } from 'firebase/auth';
+import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../config/firebase';
 
 export interface ApiResponse<T> {
